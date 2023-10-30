@@ -1,9 +1,10 @@
 server:
   port: 9091
-  
+
 spring:
   profiles:
-    active: local
+    active: dev
+
   application:
     name: RESTAURANT-SERVICE
   datasource:
